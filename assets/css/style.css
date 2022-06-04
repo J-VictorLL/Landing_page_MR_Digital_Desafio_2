@@ -1,3 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
-    background-color: blue;
+    font-family: 'Poppins';
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+.container_1{
+    height: 98vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 90%,
+    #BB4D69), url(../images/back.jpg), no-repeat center center;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.headline{
+    padding: 1rem;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.headline a{
+    margin-top: 20px;
+}
+
+.video{
+   padding: 3rem;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 43%;
+    font-size: 24px;
+    padding: 25px 35px;
+    gap: 15px;
+
+    background: #BB4966;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.container_2{
+    height: auto;
+    width: 100%;
+    background-color: #BB4D69;
+
+}
+
+#textos{
+    width: 1012px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    margin-left: 25%;
+    gap: 35px;
+}
+hr{
+    width: 94px;
+    height: 7px;
+    background: #5292C4;
+    border: none;
+}
+.saiba_mais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.texto1{
+    margin-top: 10%;
+    align-items: flex-start;
+    font-size: 20px;
+}
+.texto1 hr{
+    margin-left: 0%;
+}
+.texto1 h2{
+    font-size: 42px;
+}
+.texto2{
+    margin-bottom: 10%;
+    align-items: flex-end;
+    font-size: 20px;
+}
+.texto2 hr{
+    margin-right: 0%;
+}
+.texto2 h2{
+    font-size: 42px;
+    margin-left: 78%;
+}
+.texto2 .saiba_mais{
+    margin-left: 90%;
+}
+#barras{
+    background-color: #467599;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.barra{
+    margin: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+    background-color: white;
+    width: fit-content;
+    padding: 25px;
+    text-align: center;
+}
+.barra ul{
+    list-style-image: url(../images/check.svg);
+}
+.barra li{
+    padding: 5px;
+}
+.barra h2{
+    font-size: 40px;
+}
+footer{
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    color: black;
+    gap:4rem;
+}
+.info{
+    text-align: left;
+    margin-left: 10px;
+}
+.info ul{
+    list-style: none;
+}
+.info  h2{
+    margin-left: 2.4rem;
+}
+#end{
+    height: 1rem;
+    width: 100%;
+    background-color: rgb(202, 202, 202);
 }
