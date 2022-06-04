@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins';
     margin: 0;
     color: white;
-    background-color: black;
+    background-color: #BB4966;
     font-display: swap;
 }
 
@@ -29,11 +29,12 @@ body{
     margin-top: 20px;
 }
 
-.video{
-   padding: 3rem;
+#video{
+   padding: 1rem;
    display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 14%;
 }
 
 .botao{
@@ -49,13 +50,36 @@ body{
     border-radius: 5px;
     border: none;
     color: white;
+    opacity: 0;
+    transition: ease-in-out 3s;
 }
+
+.botao_s{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 43%;
+    font-size: 24px;
+    padding: 25px 35px;
+    gap: 15px;
+
+    background: #BB4966;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    opacity: 1;
+}
+
+.botao::after{
+    visibility: visible;
+}
+
 
 .container_2{
     height: auto;
     width: 100%;
     background-color: #BB4D69;
-
+    opacity: 0;
 }
 
 #textos{
@@ -146,6 +170,11 @@ footer{
 .info{
     text-align: left;
     margin-left: 10px;
+}
+#contato{
+    position: relative;
+    display: flex;
+    gap: 1rem;
 }
 .info ul{
     list-style: none;
