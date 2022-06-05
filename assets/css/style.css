@@ -35,6 +35,8 @@ body{
 .headline a{
     margin-top: 20px;
     padding: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 #video{
